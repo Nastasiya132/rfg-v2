@@ -1,0 +1,156 @@
+<html lang="ru-RU">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <meta name="keywords" content="">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Бронирование мотоцикла</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" media="all" href="fancybox/jquery.fancybox.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="fancybox/jquery.fancybox.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script>
+    jQuery(function($) {
+                $("#phone").mask("+7 (999) 999-9999");
+                $("#phone2").mask("+7 (999) 999-9999");
+            });
+    </script>
+    <style>
+    .signature {
+                margin: 30px 0;
+                font-style: italic;
+                text-align: right
+            }
+    </style>
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="slider padding-site">
+            <div class="header clearfix"><a href="#"><img src="img/logo2.png" height="50" alt="Главная"></a>
+                <!--<ul class="menu clearfix">
+                        <li class="menu-list"><a href="index.html" class="menu-link menu-link-active">Главная</a></li>
+                        <li class="menu-list"><a href="products" class="menu-link">Мотоциклы</a></li>
+                        <li class="menu-list"><a href="about us" class="menu-link">О нас</a></li>
+                        <li class="menu-list"><a href="contact" class="menu-link">Контакты</a></li>
+                    </ul>-->
+            </div>
+            <div class="slider-text">
+                <h1 class="slider-trending">Аренда мотоцикла BMW в Москве</h1>
+                <h2 class="slider-h2">Три шага к незабываемым впечатлениям:</h2>
+                <p class="slider-content">1. Иметь открытую категорию "А"<br>2. Заключить договор аренды<br>3. Иметь шлем</p> <a href="tel:+79104009666" class="button">Позвонить<img src="img/arrow.svg" alt="arrow" style="margin-left: 10px"></a> </div>
+            <div class="motopark">
+                <h1 class="moto-text">Наши мотоциклы</h1>
+                <div class="catalog">
+                <div class="moto1">
+                    <a href="#" class="motoname">BMW R nineT Urban G/S<br></a><br> <a href="#" class="price">Цена аренды: 10 000 руб./сут.</a><br> <a href="#inline" class="modalbox1">Подробнее</a>
+                    <div id="inline">
+                        <h2>Технические характеристики</h2>
+                        <p class="moto-spec"> 1. Год выпуска: 2021г.<br>2. Рабочий объем: 1170 куб. см<br>3. Максимальная мощность: 80кВт(109л/с) при 7250 об/мин<br>4. Макс. крутящий момент: 116 Ни при 6000 об/мин<br>5. Коробка передач: 6-ти ступенчетая</p>
+                        <form id="contact" name="contact" action="#" method="post"> <input type="name" id="name" name="name" class="txt" placeholder="Ваше имя"> <input type="phone" id="phone" name="phone" class="txt" placeholder="Ваш телефон"> <input type="email" id="email" name="email" class="txt" placeholder="Ваш e-mail"> <input type="date" id="start" class="txt" name="trip-start" value="31.12.2021г" min="31.12.2021" max="31.12.2030" placeholder="Начало аренды"> <textarea id="msg" name="msg" class="txtarea" placeholder="Дополнительная информация"></textarea> <input type="checkbox" id="agreement" onchange="document.getElementById('send').disabled = !this.checked;"> <label for="agreement"><span>Я согласен/согласна на отправку моих персональных данных, с <a target="new" href="#">политикой конфиденциальности</a> &ndash; полностью ознакомлен/ознакомлена!</span></label><br> <button id="send" disabled>Отправить</button> </form>
+                    </div>
+                </div>
+                <div class="moto2"><a href="#">
+                    <a href="#" class="motoname2">BMW R nineT Urban G/S</a><br><a href="#" class="price">Цена аренды: 10 000 руб./сут.</a><br> <a href="#inline" class="modalbox1">Подробнее</a> </div>
+                <div class="moto3"><a href="#">
+                    <a href="#" class="motoname3">BMW R nineT Urban G/S</a><br><a href="#" class="price">Цена аренды: 10 000 руб./сут.</a><br> <a href="#inline" class="modalbox1">Подробнее</a> </div>
+                    </div>
+                <div class="aboutus">
+                    <h2 class="aboutusword">О нас</h2>
+                    <p class="aboutus-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque feugiat ullamcorper erat, id feugiat arcu semper sed. Nullam et magna interdum, lobortis nisi eget, consectetur risus. Ut ac vestibulum tellus, id placerat lectus. Etiam aliquam molestie elit, eu semper turpis feugiat a. Quisque interdum non lectus in finibus. Integer tincidunt urna at dui ornare dapibus. Suspendisse at fermentum leo.<br> Quisque eget pharetra risus. Vestibulum finibus auctor est. Suspendisse euismod maximus imperdiet. Donec in libero a diam semper sodales luctus ut enim. Quisque lacinia lacus orci, vel semper dui tristique ullamcorper. Nunc volutpat velit at ex volutpat, scelerisque finibus elit lobortis. Integer ultrices volutpat orci interdum maximus. Morbi viverra odio felis, nec hendrerit dui condimentum ullamcorper. Vivamus pulvinar luctus nulla, in ultrices sem iaculis ac. Donec interdum ullamcorper diam. Proin pellentesque diam nec hendrerit bibendum. Cras vulputate mi justo, vel aliquet justo laoreet eu. Fusce luctus ipsum tellus, sit amet varius lectus varius ut. Etiam vel consectetur nunc. Curabitur tempus enim mauris, et tempus risus aliquam at.</p>
+                </div>
+                <div class="clr clearfix"></div>
+                <div class="footer">
+                    <div class="box padding-site">
+                        <div class="header clearfix">
+                            <div class="contact">
+                                <h3 class="h3-contact">Контакты</h3>
+                                <p class="adress">г. Адлер</p><br> <a href="tel:1300132" class="tel">Позвоните нам +7910</a><br> <a href="mailto:info@racefacegarage.com" class="email">info@racefacegarage.com</a> </div>
+                            <div class="userfulinfo">
+                                <h3 class="useful-h3">Документы</h3>
+                                <ul class="forshoper">
+                                    <li class="shoper">Договор аренды</li>
+                                </ul>
+                            </div>
+                            <div class="footer-link clearfix">
+                                <div class="socialicon"><a href="https://www.instagram.com" class="social-link" target="blank"><img src="img/insta.png" height="50" alt="Instagram"></a> </div>
+                                <p class="copytxt cpleft"> &copy; RaceFaceGarage 2021. Все права защищены</p>
+                                <p class="copytxt cpright">Условия и политика конфиденциальности &amp; Cookies</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end post -->
+                    <!-- end content -->
+                    <script>
+                        function validateEmail(email) {
+                            var reg = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                            return reg.test(email);
+                        }
+                        $(document).ready(function() {
+                            $(".modalbox1").fancybox();
+                            $("#contact").submit(function() {
+                                return false;
+                            });
+                            $("#send").on("click", function() {
+                                var emailval = $("#email").val();
+                                var namevl = $("#name").val();
+                                var phonevl = $("#phone").val();
+                                var msgval = $("#msg").val();
+                                var msgval = $("#trip-start").val();
+                                var msglen = msgval.length;
+                                var mailvalid = validateEmail(emailval);
+                                if (mailvalid == false) {
+                                    $("#email").addClass("error");
+                                } else if (mailvalid == true) {
+                                    $("#email").removeClass("error");
+                                }
+                                if (mailvalid == false) {
+                                    $("#name").addClass("error");
+                                } else if (mailvalid == true) {
+                                    $("#name").removeClass("error");
+                                }
+                                if (mailvalid == false) {
+                                    $("#phone").addClass("error");
+                                } else if (mailvalid == true) {
+                                    $("#phone").removeClass("error");
+                                }
+                                if (msglen < 4) {
+                                    $("#msg").addClass("error");
+                                } else if (msglen >= 4) {
+                                    $("#msg").removeClass("error");
+                                }
+                                if (mailvalid == true && msglen >= 4) {
+                                    // если обе проверки пройдены
+                                    // сначала мы скрываем кнопку отправки
+                                    $("#send").replaceWith("<em>отправка...</em>");
+                                    $.ajax({
+                                        type: 'POST',
+                                        url: 'sendmessage.php',
+                                        data: $("#contact").serialize(),
+                                        success: function(data) {
+                                            if (data == "true") {
+                                                $("#contact").fadeOut("fast", function() {
+                                                    $(this).before("<p><strong>Ваше сообщение отправлено</strong></p>");
+                                                    setTimeout("$.fancybox.close()", 1000);
+                                                });
+                                            }
+                                        }
+                                    });
+                                }
+                            });
+                        });
+                    </script>
+</body>
+
+</html>
