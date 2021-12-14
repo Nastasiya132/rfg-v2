@@ -30,7 +30,7 @@ body {
 .slider {
     width: 1080px;
     height: 400px;
-    background-image: url(img/banner.jpg);
+    background-image: url(img/banner3.jpg);
     position: relative;
 }
 
@@ -70,25 +70,24 @@ display: inline-block;
 }
 *//
 
+.slider-text {
+    margin-top: 50px;
+}
+
 .slider-trending {
     color: #212121;
     font-size: 22px;
-    font-weight: 800;
-    font-style: bold;
-    line-height: 10px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     text-transform: uppercase;
-}
-
-.slider-text {
-    margin-top: 50px;
 }
 
 .slider-h2 {
     color: #333333;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 10px;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -98,7 +97,7 @@ display: inline-block;
 .slider-content {
     color: #333333;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 24px;
     width: 900px;
     margin-top: 20px;
@@ -141,8 +140,9 @@ display: inline-block;
 }
 
 .catalog {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 50px;
+    weight: 1080px;
     height: 300px;
 }
 
@@ -150,7 +150,6 @@ display: inline-block;
     background-image: url(img/yellow.jpg);
     background-size:contain;
     height: 140px;
-    margin-left: 20px;
     padding-right: 20px;
     padding-bottom: 50px;
     text-align: center;
@@ -161,7 +160,6 @@ display: inline-block;
 .moto1:hover {
     background-image: url(img/yellow2.jpeg);
     background-size:contain;
-    margin-left: 20px;
     height: 150px;
     padding-right: 20px;
     padding-bottom: 50px;
@@ -175,7 +173,7 @@ display: inline-block;
     padding-top: 150px;
     color: #212121;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 24px;
     text-decoration: none;
     display: inline-block;
@@ -228,7 +226,7 @@ display: inline-block;
 .moto3 {
     background-image: url(img/black.jpeg);
     background-size:contain;
-    height: 140px;
+    height: 150px;
     padding-right: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -239,7 +237,7 @@ display: inline-block;
 .moto3:hover {
     background-image: url(img/black2.jpeg);
     background-size:contain;
-    height: 140px;
+    height: 144px;
     padding-right: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -374,8 +372,8 @@ textarea.error:focus {
 }
 
 .aboutus {
-    padding-top: 50px;
-    height: 350px;
+    padding-top: 20px;
+    height: 300px;
     float: left;
     display: inline-block;
 }
@@ -401,8 +399,8 @@ textarea.error:focus {
 }
 
 .footer {
-    padding-top: 10px;
-    background-image: url(img/footer.jpg);
+    margin-top: 20px;
+    background-image: url(img/footer2.jpg);
     width: 1000px;
     height: 400px;
     position: relative;
@@ -410,13 +408,12 @@ textarea.error:focus {
 
 .box {
     width: 1000px;
-    padding-top: 20px;
     position: relative;
 }
 
 .contact {
-    width: 221px;
-    height: 139px;
+    width: 200px;
+    height: 200px;
     padding-right: 80px;
     display: inline-block;
     float: left;
@@ -425,16 +422,24 @@ textarea.error:focus {
 .h3-contact {
     color: #6c6c6c;
     width: 221px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 48px;
     text-transform: uppercase;
 }
 
+.adress {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    text-decoration: none; 
+}
+
 .tel {
     color: #212121;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 22px;
     text-decoration: none;
 }
@@ -442,29 +447,28 @@ textarea.error:focus {
 .email {
     color: #212121;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 22px;
     text-decoration: none;
 }
 
 .userfulinfo {
     margin-top: 10px;
-    margin-left: 200px;
-    width: 422px;
-    height: 139px;
-    float: left;
+    margin-left: 500px;
+    width: 200px;
+    height: 165px;
 }
 
 .useful-h3 {
     color: #6c6c6c;
-    font-size: 18px;
+    width: 221px;
+    font-size: 20px;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 48px;
     text-transform: uppercase;
 }
 
 .forshoper {
-    margin-top: 25px;
     width: 132px;
     height: 62px;
     list-style-type: none;
@@ -483,25 +487,26 @@ textarea.error:focus {
 
 .footer-link {
     height: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .socialicon {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: inline-block;
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .cpleft {
-    float: left;
-    margin-top: 50px;
+    float: right;
+    margin-top: 120px;
+    margin-right: 165px;
+    position: relative;
 }
 
-.cpright {
+//*.cpright {
     float: right;
     margin-top: 50px;
 }
+*//
 
 .copytxt {
     color: #6c6c6c;
